@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahoy.sh/chest.git"
+    "url": "git+https://github.com/ahoysh/chest.git"
   },
   "bugs": {
-    "url": "https://github.com/ahoy.sh/chest/issues"
+    "url": "https://github.com/ahoysh/chest/issues"
   },
-  "homepage": "https://github.com/ahoy.sh/chest#readme",
+  "homepage": "https://github.com/ahoysh/chest#readme",
   "dependencies": {
     "caporal": "^1.1.0",
     "colors": "^1.3.3",
