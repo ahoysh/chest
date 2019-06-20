@@ -1,0 +1,35 @@
+{
+  "name": "Chest",
+  "version": "1.0.0",
+  "description": "Chest is a tool for encrypting or decrypting a secrets file",
+  "main": "chest.js",
+  "keywords": [
+    "encryption",
+    "decryption"
+  ],
+  "author": "Chris McMichael <chris@ahoy.sh>",
+  "license": "BSD",
+  "bin": {
+    "chest": "chest.js"
+  },
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahoy.sh/chest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahoy.sh/chest/issues"
+  },
+  "homepage": "https://github.com/ahoy.sh/chest#readme",
+  "dependencies": {
+    "caporal": "^1.1.0",
+    "colors": "^1.3.3",
+    "fs-extra": "^6.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "yarn": "^1.16.0"
+  }
+}
